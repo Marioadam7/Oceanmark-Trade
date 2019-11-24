@@ -1,0 +1,13 @@
+/* global $, alert, console */
+$(function () {
+
+	'user strict';
+
+	// Adjust Slider Height
+
+	var winH = $(window).height(),
+		navH = $('.navbar').innerHeight();
+
+	$('.slider, .carousel-item').height(winH - navH);
+
+});

@@ -1,0 +1,370 @@
+/* Start Global */
+body {
+	position:relative;
+}
+.container {
+	width:1200px;
+	margin:0 auto;
+}
+.line {
+	color:#000;
+	border-bottom:1px solid #ccc;
+}
+ul {
+	list-style:none;
+}
+/* End Global */
+
+/* Start Navigation Bar */
+.navbar {
+	height:50px;
+}
+.navbar-brand span {
+	font-size:28px;
+}
+.navbar-brand span:first-child {
+	color:#17a2b8;
+	font-weight:bold;
+
+}
+.navbar-brand span:last-child {
+	color:#dc3545;
+	font-size:24px;
+}
+.navbar-nav .nav-link {
+	font-size:17px;
+	margin-left:12px;
+	text-transform:uppercase;
+	color:#08526d !important;
+}
+.navbar-nav .active>.nav-link {
+	color:#17a2b8 !important;
+}
+
+/* End Navigation Bar */
+
+/* Start Slider Header */
+
+.slider {background-color:#888;}
+
+.slider .carousel-inner {
+	display:flex;
+	align-items:top;
+	justify-content:left;
+}
+.slider .carousel-inner .carousel-one h1 {
+	position:absolute;
+	left:100px;
+	color:#fff;
+	z-index:3;
+	font-size:50px;
+	border:1px solid #ccc;
+	padding:20px 30px;
+	border-top-left-radius: 70px;
+	border-bottom-right-radius: 200px;
+
+}
+.slider .carousel-inner .carousel-two h1 {
+	position:absolute;
+	left:100px;
+	color:#fff;
+	z-index:3;
+	font-size:50px;
+
+}
+.slider .carousel-inner .carousel-three h1 {
+	position:absolute;
+	left:100px;
+	color:#fff;
+	z-index:3;
+	font-size:50px;
+}
+.slider .carousel-inner .carousel-three span {
+	background-color: #fff;
+    border-radius: 5px;
+    padding: 0 10px;
+    color:#008;
+    font-weight:bold;
+    border-top-left-radius: 20px;
+}
+.slider .carousel-inner .overlay {
+	position:absolute;
+	height:100%;
+	width:100%;
+	left:0;
+	top:0;
+	z-index:2;
+	background-color:rgba(0, 0, 0, 0.6);
+}
+.slider .carousel-item {
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+.slider .carousel-inner .carousel-one {
+	background-image: url("../images/images.jpg");
+}
+.slider .carousel-inner .carousel-two {
+	background-image: url("../images/images2.jpg");
+}
+.slider .carousel-inner .carousel-three {
+	background-image: url("../images/images3.jpg");
+}
+.slider .carousel-indicators li {
+	height:8px;
+}
+
+/* End Slider Header */
+
+/* Start Services Section */
+.services {
+	text-align:center;
+	background-image:#fff;
+	padding:10px 0;
+	height:430px;
+}
+
+.services header h1 {
+	width:170px;
+	font-size:40px;
+	border:1px solid #ccc;
+	border-radius:20px;
+	box-shadow:5px 5px 5px #ccc;
+	margin:20px auto;
+	color:#17a2b8;
+}
+
+.services .row {
+	display:flex;
+	justify-content:center;
+}
+.services .row .firstrow {
+	background:linear-gradient(#fff, #ccc, #fff);
+	width:25%;
+	padding:10px;
+	margin:15px 0;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	box-shadow:5px 5px 5px #ccc,
+				-5px -5px 5px #ccc;
+}
+.services .row details {
+	margin-left:15px;
+	text-align:left;
+}
+.services .row .secondrow {
+	background:linear-gradient(#fff, #ccc, #fff);
+	width:25%;
+	padding:10px;
+	margin:15px 0;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	box-shadow:5px 5px 5px #ccc,
+				-5px -5px 5px #ccc;
+}
+.services h1 {
+	color:#000;
+
+}
+
+/* End Services Section */
+
+/* Start Tools Section */
+
+.tools {
+	
+	text-align:center;
+	padding:10px 0;
+	background-image:#fff;
+	height:520px;
+	padding-top:35px;
+}
+.tools header h2 {
+	font-size:40px;
+	width:170px;
+	border:1px solid #888;
+	border-radius:20px;
+	margin:10px auto 22px;
+	color:#17a2b8;
+
+}
+.tools section {
+
+}
+.tools section .row {
+	width:100%;
+	margin:auto;
+	display:flex;
+	justify-content:center;
+}
+.tools section .row div {
+    background: linear-gradient(#fff, #ccc, #fff);
+    border-radius: 4px;
+    border-top-right-radius: 20px;
+
+    width: 300px;
+    height: 155px;
+    margin: 18px auto;
+    padding: 10px;
+    box-shadow:
+    			10px 6px 15px #ccc,
+    			-10px -6px 15px #ccc;
+}
+.tools section .row div > h4 {
+	background:#131137;
+	color:#fff;
+	width:100%;
+	margin:0px auto 10px;
+	text-align:center;
+	font-size:18px;
+	border-radius:4px;
+	border-top-right-radius:20px;
+	font-family:arial, tahoma;
+}
+.tools section .row div p {
+	text-align:center;
+	color:#000;
+	margin:0px auto 5px;
+}
+
+/* End Tools Section */
+
+/**************** Start Footer ******/
+
+/* Start Social Media */
+
+footer .socialmedia {
+	width:100%;
+	height:200px;
+	background-color:#fff;
+	color:#1e242c;
+}
+footer .socialmedia h3 {
+	color:#17a2b8;
+	text-align:center;
+	margin-top:25px;
+}
+footer .socialmedia ul {
+	padding:20px;
+	text-align:center;
+
+}
+footer .socialmedia ul li {
+	display:inline-block;
+	height:35px;
+	margin:10px auto;
+	color:#1e242c;
+	text-align:center;
+
+	
+}
+footer .socialmedia ul li a {
+	color:#ccc;
+	border:1px solid #131137;
+	border-radius:15px;
+	
+	padding:5px 10px 5px;
+	width:150px;
+	height:100px;
+	margin-left:5px;
+	text-decoration:none;
+	background-color:#131137;
+	transition:all .5s ease-in-out;
+}
+footer .socialmedia ul li a:hover {
+	color:#131137;
+	background-color:#16b8c8;
+	border:1px solid #16b8c8;
+	box-shadow:
+			1px 1px 3px #17a2b8,
+			-1px -1px 3px #17a2b8;
+	
+}
+
+
+/* End Social Media */
+
+/* Start Footer Links */
+
+.endoflinks {
+	background:#131137;
+	width:100%;
+	height:380px;
+	margin:10px auto 0px;
+	padding:10px 0 10px;
+	border-bottom:1px solid #ccc;
+}
+
+.endoflinks .row div {
+	width:300px;
+	height:180px;
+	text-align:left;
+	margin:0 auto;
+	
+}
+.endoflinks .row div header {
+	border-bottom:1px solid #fff;
+}
+.endoflinks .row div header h3 {
+	color:#fff;
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family: arial, tahoma;
+}
+.endoflinks .row div section {
+	height:150px;
+	width:320px;
+	padding:10px 0px 10px;
+	
+}
+.endoflinks .row div section a {
+	display:block;
+	color:#ccc;
+	transition:all 0.3s ease-in-out;
+}
+.endoflinks .row div section a:hover {
+	color:#888;
+	text-decoration:none;
+}
+
+/* Start Footer Copyright */
+
+.copyright {
+	width:100%;
+	text-align:center;
+	font-size:13px;
+	background:#131137;
+	color:#c1c1c1;
+	padding:10px;
+}
+.copyright p:last-child {
+	margin:0px auto;
+}
+.copyright ul {
+
+}
+.copyright ul li {
+	display:inline-block;
+	margin-left:10px;
+}
+.copyright ul li a {
+	text-decoration:none;
+	color:#858484;
+}
+
+
+/* End Footer Copyright */
+
+
+
+
+
+
+
+/* End Footer Links */
+
+
+
+/*************** End Footer ***********/
